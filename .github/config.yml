@@ -15,13 +15,9 @@ newPRWelcomeComment: >
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
-   &nbsp; &#9; &nbsp; &#9;  &nbsp; &#9;  &nbsp; &#9; Thank you for contributing to the KhulnaSoft community! :tada:
-  \
-  \
-  ![Congrats!](https://github.com/khulnasoft/khulnasoft/blob/master/.github/welcome/KhulnaSoft-celebration.png)
-  \
-  \
-  &nbsp; &#9; &nbsp; &#9;  &nbsp; &#9;  &nbsp; &#9; :star: Please leave a [star on the project](../stargazers). :smile:
+  Thanks for your contribution to the KhulnaSoft community! :tada:
+   
+  ![Congrats!](https://raw.githubusercontent.com/khulnasoft/advanced-istio-service-mesh-workshop/master/.github/welcome/KhulnaSoft-celebration.png)
 
 
 #-------------------------------------------------------------------------------

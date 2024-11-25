@@ -1,44 +1,68 @@
-# khulnasoft-repo-template
-This repository is used as the boilerplate for consistency across all KhulnaSoft repos.
+# Introduction to Istio
+A workshop teaching concepts of service mesh through the lens of Istio. Questions? See the community [discussion forum](http://discuss.khulnasoft.com).
 
-<div>&nbsp;</div>
+[Free] Use the Cloud Native Playground to walk-through the labs in this workshop in a live Kubernetes environment - https://play.meshplay.io
 
-## Join the KhulnaSoft community!
+## Prerequisites
 
-<a name="contributing"></a><a name="community"></a>
-Our projects are community-built and welcome collaboration. 👍 Be sure to see the <a href="https://docs.google.com/document/d/17OPtDE_rdnPQxmk2Kauhm3GwXF1R5dZ3Cj8qZLKdo5E/edit">KhulnaSoft Community Welcome Guide</a> for a tour of resources available to you and jump into our <a href="http://slack.khulnasoft.com">Slack</a>!
+- [Prereq - Setup Docker, Kubernetes, and Meshplay](prereq/README.md)
 
-<p style="clear:both;">
-<a href ="https://khulnasoft.com/community/meshmates"><img alt="MeshMates" src=".github/readme/images/khulnasoft-community-sign.png" style="margin-right:10px; margin-bottom:15px;" width="28%" align="left"/></a>
-<h3>Find your MeshMate</h3>
+## Setup Istio
+- [Lab 1 - Setup Istio](lab-1/README.md)
 
-<p>MeshMates are experienced KhulnaSoft community members, who will help you learn your way around, discover live projects and expand your community network. 
-Become a <b>Meshtee</b> today!</p>
-
-Find out more on the <a href="https://khulnasoft.com/community">KhulnaSoft community</a>. <br />
-<br /><br /><br /><br />
-</p>
-
-<div>&nbsp;</div>
-
-<a href="https://slack.meshplay.khulnasoft.com">
-
-<picture align="right">
-  <source media="(prefers-color-scheme: dark)" srcset=".github/readme/images//slack-dark-128.png"  width="110px" align="right" style="margin-left:10px;margin-top:10px;">
-  <source media="(prefers-color-scheme: light)" srcset=".github/readme/images//slack-128.png" width="110px" align="right" style="margin-left:10px;padding-top:5px;">
-  <img alt="Shows an illustrated light mode meshplay logo in light color mode and a dark mode meshplay logo dark color mode." src=".github/readme/images//slack-128.png" width="110px" align="right" style="margin-left:10px;padding-top:13px;">
-</picture>
-</a>
-
-
-<a href="https://meshplay.khulnasoft.com/community"><img alt="KhulnaSoft Community" src=".github/readme/images//community.svg" style="margin-right:8px;padding-top:5px;" width="140px" align="left" /></a>
+## Deploying an App onto the Mesh
+- [Lab 2 - Deploy the sample application BookInfo](lab-2/README.md)
 
 <p>
-✔️ <em><strong>Join</strong></em> any or all of the weekly meetings on <a href="https://calendar.google.com/calendar/b/1?cid=bGF5ZXI1LmlvX2VoMmFhOWRwZjFnNDBlbHZvYzc2MmpucGhzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">community calendar</a>.<br />
-✔️ <em><strong>Watch</strong></em> community <a href="https://www.youtube.com/playlist?list=PL3A-A6hPO2IMPPqVjuzgqNU5xwnFFn3n0">meeting recordings</a>.<br />
-✔️ <em><strong>Access</strong></em> the <a href="https://drive.google.com/drive/u/4/folders/0ABH8aabN4WAKUk9PVA">Community Drive</a> by completing a community <a href="https://khulnasoft.com/newcomer">Member Form</a>.<br />
-✔️ <em><strong>Discuss</strong></em> in the <a href="https://discuss.khulnasoft.com">Community Forum</a>.<br />
-✔️<em><strong>Explore more</strong></em> in the <a href="https://khulnasoft.com/community/handbook">Community Handbook</a>.<br />
+<img src="img/break.png" height="25px" style="text-align:left; padding:8px" />
+Break (5 minutes)
 </p>
-<p align="center">
-<i>Not sure where to start?</i> Grab an open issue with the <a href="https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Akhulnasoft+org%3Ameshplay+org%3Aservice-mesh-performance+org%3Aservice-mesh-patterns+label%3A%22help+wanted%22+">help-wanted label</a>.</p>
+
+## Exposing Workloads with Ingress Gateway
+
+- [Lab 3 - Istio Ingress Gateway](lab-3/README.md)
+
+## Observability
+
+- [Lab 4 - Telemetry Add-ons](lab-4/README.md)
+
+<p>
+<img src="img/break.png" height="25px" style="text-align:left; padding:8px" />
+Break (5 minutes)
+</p>
+
+## Traffic Control
+- [Lab 5 - Request Routing and Canary Testing](lab-5/README.md)
+- [Lab 6 - Fault Injection](lab-6/README.md)
+- [Lab 7 - Circuit Breaking](lab-7/README.md)
+
+## Security
+- [Lab 8 - Mutual TLS & Identity Verification](lab-8/README.md)
+
+<p>
+<img src="img/break.png" height="25px" style="text-align:left; padding:8px" />
+Wrap up / Q&A (10 minutes)
+</p>
+
+# Authors
+
+- KhulnaSoft Authors [Twitter](https://twitter.com/khulnasoft), [Slack](http://slack.khulnasoft.com)
+
+## Workshop Resources
+
+This workshop and other service mesh resources have been created by the [KhulnaSoft community](https://khulnasoft.com/community). Visit our free [Learning Paths](https://khulnasoft.com/learn/learning-paths) for more courses.
+
+<hr />
+
+### About KhulnaSoft
+
+[KhulnaSoft](https://khulnasoft.com)'s cloud native application and infrastructure management software enables organizations to expect more from their infrastructure. We embrace developer-defined infrastructure. We empower engineer to change how they write applications, support operators in rethinking how they run modern infrastructure and enable product owners to regain full control over their product portfolio.
+
+- Engage in [Slack](http://slack.khulnasoft.com)
+- Follow on Twitter: [@khulnasoft](https://twitter.com/khulnasoft), [@meshplayio](https://twitter.com/meshplayio), [@smp_spec](https://twitter.com/smp_spec)
+- Watch on [YouTube](https://www.youtube.com/channel/UCFL1af7_wdnhHXL1InzaMvA?sub_confirmation=1), Follow on [LinkedIn](https://www.linkedin.com/company/khulnasoft)
+- Discuss in the [Community Forum](https://discuss.khulnasoft.com).
+
+### License
+
+This repository and site are available as open-source under the terms of the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).

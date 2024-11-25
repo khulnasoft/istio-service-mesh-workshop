@@ -1,38 +1,35 @@
 ---
-name: 🐛 General Bug Report
+name: Bug/issue report
 about: Report an issue to help improve the project.
 title: ''
 labels: 'kind/bug'
 assignees: ''
 ---
-### Current Behavior
+**Description**
 <!-- A brief description of the issue. -->
 
-### Expected Behavior
+**Expected Behavior**
 <!-- A brief description of what you expected to happen. -->
 
-### Screenshots/Logs
+**Screenshots**
 <!-- Add screenshots, if applicable, to help explain your problem. -->
 
-### Environment
+**Environment:**
+ - OS: [e.g. Ubuntu]
+ - Browser: [e.g. Chrome, Safari]
+ - Version: [e.g. 22]
+ - Device: [e.g. laptop, iPhone 8]
 
-- **Host OS:** Mac Linux Windows
-- **Platform:** Docker or Kubernetes
-- **Meshplay Server Version:** stable-v
-- **Meshplay Client Version:** stable-v
-
-<!-- Optional 
-#### To Reproduce
+---
+[Optional] **To Reproduce**
+Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
--->
 
----
-#### Contributor [Guides](https://docs.meshplay.khulnasoft.com/project/contributing) and Resources
-- 🛠 [Meshplay Build & Release Strategy](https://docs.meshplay.khulnasoft.com/project/build-and-release)
-- 📚 [Instructions for contributing to documentation](https://github.com/meshplay/meshplay/blob/master/CONTRIBUTING.md#documentation-contribution-flow)
-   - Meshplay documentation [site](https://docs.meshplay.khulnasoft.com/) and [source](https://github.com/meshplay/meshplay/tree/master/docs)
+[Optional] **Additional Context**
+<!-- Add any other context about the problem here. -->
 - 🎨 Wireframes and [designs for KhulnaSoft site](https://www.figma.com/file/5ZwEkSJwUPitURD59YHMEN/KhulnaSoft-Designs) in Figma [(open invite)](https://www.figma.com/team_invite/redeem/qJy1c95qirjgWQODApilR9)
-- 🙋🏾🙋🏼 Questions: [KhulnaSoft Discussion Forum](https://discuss.khulnasoft.com) and [KhulnaSoft Community Slack](http://slack.khulnasoft.com)
+                                                                                                                       
+
